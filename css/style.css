@@ -1,0 +1,102 @@
+.carousel-item>img.d-block{
+    width: 100%;
+}
+.s-bg-white {
+    background-color: #FFF;
+}
+
+.s-color-red {
+    color: #C00000;
+}
+
+.s-color-orange {
+    color: #843C0C;
+}
+
+.btn-sample {
+    cursor: pointer;
+  color: #FFFFFF; 
+  background-color: #ED7D31; 
+  border-color: #B25F27; 
+} 
+ 
+.btn-sample:hover, 
+.btn-sample:focus, 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  color: #FFFFFF; 
+  background-color: #B25F27; 
+  border-color: #B25F27; 
+} 
+
+.s-text-content>ul{
+    list-style: none;
+}
+
+.s-text-content>ul>li:before{
+    content: "\2666 \0020";
+}
+.s-color-blue {
+    color: blue;
+}
+
+.s-btn-custom1 {
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  background: #FBBB2F;
+  background-image: -webkit-linear-gradient(top, #FBBB2F, #EE843D);
+  background-image: -moz-linear-gradient(top, #FBBB2F, #EE843D);
+  background-image: -ms-linear-gradient(top, #FBBB2F, #EE843D);
+  background-image: -o-linear-gradient(top, #FBBB2F, #EE843D);
+  background-image: linear-gradient(to bottom, #FBBB2F, #EE843D);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #020101;
+  font-size: 16px;
+  padding: 5px 15px 5px 15px;
+  border: solid #C55A11 1px;
+  text-decoration: none;
+}
+
+.s-btn-custom1:hover {
+  background: #ffc23d;
+  background-image: -webkit-linear-gradient(top, #ffc23d, #f7914d);
+  background-image: -moz-linear-gradient(top, #ffc23d, #f7914d);
+  background-image: -ms-linear-gradient(top, #ffc23d, #f7914d);
+  background-image: -o-linear-gradient(top, #ffc23d, #f7914d);
+  background-image: linear-gradient(to bottom, #ffc23d, #f7914d);
+    text-decoration: none;
+    color: #020101;
+}
+
+/**popover**/
+.s-popover {
+    background-color: #E7E6E6;
+    border-radius: 50px;
+    position:absolute;
+    display:none;
+    border: 1px solid #999;
+    padding:10px;
+    width:380px;
+    box-shadow:0 0 10px rgba(0, 0, 0, .5);
+}
+
+.s-popover input, .s-popover textarea{
+    background-color: #D9D9D9;
+}
+.s-close {
+    position: absolute;
+    right: 0.2em;
+    top: 0.2em;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.s-close:hover{
+    color: #000000;
+}
